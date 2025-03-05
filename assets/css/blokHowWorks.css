@@ -16,10 +16,16 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
+}
+
+.blok-how-works__col {
+	max-width: 50%;
+	flex-shrink: 1;
+	flex-grow: 1;
 }
 
 .blok-how-works__col:last-child {
-	max-width: 50%;
 	padding-left: 30px;
 }
 

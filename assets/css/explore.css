@@ -7,11 +7,20 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
+}
+
+.blok-explore__col {
+	flex-shrink: 1;
+	flex-grow: 1;
 }
 
 .blok-explore__col:first-child {
 	max-width: 50%;
-	padding-right: 30px;
+}
+
+.blok-explore__col:last-child {
+	text-align: end;
 }
 
 .blok-explore__col h3 {
